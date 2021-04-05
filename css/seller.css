@@ -1,0 +1,142 @@
+#navigationBar{
+    background-color: lightgreen;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    padding: 5px;
+    /* top: 100px; */
+}
+
+.logo{
+    width: 70px;
+}
+
+.h1{
+    font-size: 20px;
+    font-family: cursive;
+    padding: 5px;
+}
+
+/*  DROPDOWN    */
+.dropbtn {
+    background-color: #4CAF50;
+    border-radius: 50%;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 60px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: -60px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+
+  /*  SIDEBAR  */
+.sidebar{
+    margin-left: 10px;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.col-3 a{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+a{
+  text-decoration: none;
+}
+
+a h2{
+  font-size: 20px;
+}
+.sidebar a:hover{
+    background-color: lightgray;
+}
+
+/*add icon*/
+.iconbutton{
+    width: 60px;
+    border-radius: 100%;
+    background-color: green;
+}
+
+.addIcon{
+    width: 60px;
+    margin-left: -5px;
+}
+
+/* ----------------------------Products -------------- */
+.column {
+    float: left;
+    width: 20%;
+    padding: 0 10px;
+  }
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  } 
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 20px;
+    text-align: center;
+    background-color: whitesmoke;
+  }
+  .card.grow {
+    transition: all 0.1s ease-in-out;
+  }
+  .card:hover {
+    transform: scale(0.9);
+  }
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+.image{
+    height: 100px;
+    width: 100%;
+}
